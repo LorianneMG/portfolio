@@ -1,65 +1,3 @@
-/* body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Segoe UI", sans-serif;
-    background: #2c2e36;
-}
-
-.btn {
-    color: #fff;
-    border: none;
-    margin: 20px;
-    padding: 20px 30px;
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: 0.5s;
-    transition-property: box-shadow;
-}
-
-.btn-primary {
-    background: #50A7FF;
-    box-shadow: 0 0 25px #50A7FF;
-}
-
-.btn-primary:hover {
-    box-shadow: 0 0 5px #50A7FF, 0 0 25px #50A7FF, 0 0 50px #50A7FF, 0 0 100px #50A7FF;
-}
-
-.btn-success {
-    background: #03D29F;
-    box-shadow: 0 0 25px #03D29F;
-}
-
-.btn-success:hover {
-    box-shadow: 0 0 5px #03D29F, 0 0 25px #03D29F, 0 0 50px #03D29F, 0 0 100px #03D29F;
-}
-
-.btn-danger {
-    background: #FF7675;
-    box-shadow: 0 0 25px #FF7675;
-}
-
-.btn-danger:hover {
-    box-shadow: 0 0 5px #FF7675, 0 0 25px #FF7675, 0 0 50px #FF7675, 0 0 100px #FF7675;
-}
-
-.btn-warning {
-    background: #F0DF51;
-    box-shadow: 0 0 25px #F0DF51;
-}
-
-.btn-warning:hover {
-    box-shadow: 0 0 5px #F0DF51, 0 0 25px #F0DF51, 0 0 50px #F0DF51, 0 0 100px #F0DF51;
-} */
-
 *, *:before, *:after {
     margin: 0;
     padding: 0;
@@ -69,7 +7,7 @@
 html {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    font-size: 62.5%;
+    font-size: 65.5%;
 }
 
 @media only screen and (max-width: 800px) {
@@ -81,7 +19,7 @@ html {
 body {
     background-color: #000;
     color: #fff;
-    padding: 8rem;
+    padding: 3rem;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -221,7 +159,7 @@ body {
 
 .slider .box .details button {
     padding: 1rem 3rem;
-    color: #fff;
+    color: #000;
     border-radius: 2rem;
     outline: none;
     border: none;
@@ -287,7 +225,7 @@ body {
 }
 
 .slider .box4 {
-    background-color: #554d00;
+    background-color: #bb5504;
 }
 
 .slider .box4 .illustration .inner {
@@ -442,3 +380,85 @@ body {
 .active {
     opacity: 1 !important;
 }
+
+/* nav buttons ------------------------------------------------------ */
+
+#neon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5vh;
+    /* background: #031628; */
+}
+
+.btn {
+    border: 1px solid;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: 300;
+}
+
+.one {
+    color: #f038ff;
+}
+
+.four {
+    color: #4cc9f0;
+}
+
+.three {
+    /* color: #b9e769; */
+    color: #0f4;
+}
+
+.two {
+    color: rgb(255, 103, 0);
+}
+
+.five {
+    color: rgb(191, 0, 255);
+}
+
+.btn:hover {
+    color: black;
+    border: 0;
+}
+
+.four:hover {
+    background-color: rgb(76, 201, 240);
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(76, 201, 240, 1);
+    -moz-box-shadow: 10px 10px 99px 6px rgba(76, 201, 240, 1);
+    box-shadow: 10px 10px 99px 6px rgba(76, 201, 240, 1);
+}
+
+.one:hover {
+    background-color: #f038ff;
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+    -moz-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+    box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+}
+
+.three:hover {
+    background-color: rgb(0, 255, 68);
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(0, 255, 68, 1);
+    -moz-box-shadow: 10px 10px 99px 6px rgba(0, 255, 68, 1);
+    box-shadow: 10px 10px 99px 6px rgba(0, 255, 68, 1);
+}
+
+.two:hover {
+    background-color: rgb(255, 103, 0);
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(255, 103, 0, 1);
+    -moz-box-shadow: 10px 10px 99px 6px rgba(255, 103, 0, 1);
+    box-shadow: 10px 10px 99px 6px rgba(255, 103, 0, 1);
+}
+
+.five:hover {
+    background-color: rgb(191, 0, 255);
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(191, 0, 255, 1);
+    -moz-box-shadow: 10px 10px 99px 6px rgba(191, 0, 255, 1);
+    box-shadow: 10px 10px 99px 6px rgba(191, 0, 255, 1);
+}
+
+/* size adjustments for follow up pages */
